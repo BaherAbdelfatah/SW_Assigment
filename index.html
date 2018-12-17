@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+
+</head>
+<body>
+  <header class="container-fluid" id="coverheader">
+    <p >Cover designer</p>
+  </header>
+<div class="container-fluid" >
+    <div class="col-sm-6" id="bookdetails">
+ <div class="container">
+      <form  >
+        Book title
+        <input type="text" id="Booktitle" name="Book title" >
+        <br>
+      Book subtitle
+        <input type="text" id="booksubtitle" name="Book subtitle" >
+        <br>
+        Author name
+          <input type="text" id="bookAuthor" name="Author name" >
+          <br>
+          Background color
+            <input list="Background" name="Background">
+ <datalist id="Background">
+   <option value="orange">orange</option>
+   <option value="blue">blue</option>
+   <option value="red">red</option>
+   <option value="brown">brown</option>
+ </datalist>
+            <br>
+            <br>
+            Publisher
+              <input type="text" id="bookPublisher" name="Publisher" >
+              <br>
+              Publishing year
+            <input type="number"  id="bookyear" name="Publishing year" min="1960" max="2018">
+                <br>
+        <br>
+        <input type="button" onclick="myFunction()" value="Generate">
+      </form>
+</div>
+    </div>
+
+
+
+   <div class="col-sm-6" id="bookcover">
+     <div  class="col-sm-3"></div>
+   <div  class="col-sm-6-cover" id="book" >
+     <br>
+     <br>
+     <h1 id="title">Book Title</h1>
+    <br>
+    <br>
+     <br>
+     <h2 id="Subtitle">Subtitle</h2>
+     <br>
+     <br>
+     <br>
+     <br>
+    <h4 id="Publisher">Publisher</h4>
+     <br>
+     <h4 id="year">Publishing year</h4>
+     <br>
+        <h2 id="Author">Author name</h2>
+   </div>
+   <div  class="col-sm-3"></div>
+</div>
+
+
+
+
+</body>
+</html>

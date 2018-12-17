@@ -1,0 +1,45 @@
+header {
+  background-color: #E6E6FA;
+  color: #696969;
+  padding: 10px;
+  font-size: 28px;
+  border: 5px solid #2F4F4F ;
+  border-radius: 10px;
+}
+
+#bookdetails{
+  background-color: #E6E6FA;
+  border: 5px solid #2F4F4F;
+  width: 50%;
+  height:600px;
+  padding: 20px;
+border-radius: 10px;
+}
+#bookcover{
+  background-color: #E6E6FA;
+  border: 5px solid #2F4F4F;
+  width: 50%;
+  height:600px;
+border-radius: 10px;
+}
+#coverheader{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.container {
+  width: 500px;
+  clear: both;
+}
+
+.container input {
+  width: 100%;
+  clear: both;
+}
+#book{
+  margin: 20px;
+  padding: 20px;
+
+border-radius: 10px;
+ background-image: url("orange.jpg");
+  text-align: center;
+}
