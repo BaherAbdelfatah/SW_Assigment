@@ -43,3 +43,6 @@ border-radius: 10px;
  background-image: url("orange.jpg");
   text-align: center;
 }
+h1,h2,h4{
+  font-weight: bold;
+}
